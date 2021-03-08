@@ -31,13 +31,13 @@ def filtering_data(files):
     return imp_details
 
 # Function to match the strings from the two given files.
-def find_matches(details_f,details_m):
+def find_matches(nfile,mrfile):
     count_f = 0
-    for det in details_f:
+    for det in nfile:
         count_f += 1
         details_female = ''.join(det[1:])
         count_m =0
-        for detm in details_m:
+        for detm in mrfile:
             count_m += 1
             details_male = ''.join(detm[1:])
             # Using finditer to find possible match
