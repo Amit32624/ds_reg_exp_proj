@@ -30,7 +30,7 @@ def filtering_data(files):
         imp_details.append(names)
     return imp_details
 
-# Function to match the strings from the two given files.
+# Function to match the strings from the two given files...
 def find_matches(nfile,mrfile):
     count_f = 0
     for det in nfile:
